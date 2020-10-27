@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Hero Database</title>
+
+        <!-- Include links to CSS stylesheets below -->
+        <!-- TODO (optional): Add link to bulma here -->
+        <link rel="stylesheet" href="node_modules/bulma/css/bulma.css"></link>
+        <link rel="stylesheet" href="custom_stylesheet.css" />
+    </head>
+
+    <body>
+        <section class="hero is-dark">
+            <div class="hero-body">
+              <div class="container">
+                <img alt="Avengers Logo" src="images/avengersLogo.png"/>
+              </div>
+            </div>
+          </section>
+        <section class="section" style="background-color: rgb(203, 215, 231);">
+                <div id="root">
+                  <!-- html from render.js inserted here -->
+                </div>
+        </section>        
+
+        <!-- Include links to JavaScript files below -->
+        <!-- TODO: Add link to jQuery here -->
+        <script src="data.js"></script>
+        <script src="render.js" type="module"></script>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+    </body>
+</html>
